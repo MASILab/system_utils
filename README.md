@@ -2,11 +2,14 @@
 This is a simple library for dealing with "system" related things in MATLAB. Includes a class-based approach to dealing with directories and files.
 
 # Installation instructions:
-1) It's simple, just set the environment:
+```
+git clone https://github.com/justinblaber/system_utils.git
+```
+Then, in MATLAB:
 ```
 addpath('~/system_utils');
 ```
-2) Test out some of the utilities:
+You can try out some of the utilties like so:
 ```
 % Make a test directory
 test_dir = system_utils.directory('test');
