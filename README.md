@@ -7,7 +7,7 @@ git clone https://github.com/justinblaber/system_utils.git
 ```
 Then, in MATLAB:
 ```
-addpath('~/system_utils');
+addpath('system_utils');
 ```
 You can try out some of the utilties like so:
 ```
